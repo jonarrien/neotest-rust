@@ -194,7 +194,7 @@ function adapter.discover_positions(path)
   (function_item
     name: (identifier) @test.name
   ) @test.definition
-  (#any-of? @macro_name "test" "rstest" "case")
+  (#any-of? @macro_name "test" "async_test" "rstest" "case")
 
 )
 (mod_item name: (identifier) @namespace.name)? @namespace.definition
